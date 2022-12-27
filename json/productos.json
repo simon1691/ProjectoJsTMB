@@ -1,0 +1,98 @@
+[
+    {
+        "nombre": "BiPro",
+        "categoria": "proteina",
+        "genero": "masculino",
+        "proceso": "subir",
+        "precio": "30",
+        "imgSrc": "imgs/bipromass.png"
+    },
+    {
+        "nombre": "Gainer Pro",
+        "categoria": "proteina",
+        "genero": "masculino",
+        "proceso": "subir",
+        "precio": "23",
+        "imgSrc": "imgs/gainerpro.png"
+    },
+    {
+        "nombre": "Titan Army",
+        "categoria": "proteina",
+        "genero": "masculino",
+        "proceso": "subir",
+        "precio": "30",
+        "imgSrc": "imgs/titangainer.png"
+    },
+    {
+        "nombre": "Best Protein",
+        "categoria": "proteina",
+        "genero": "masculino",
+        "proceso": "bajar",
+        "precio": "55",
+        "imgSrc": "imgs/bestProtein.png"
+    },
+    {
+        "nombre": "IsoLate",
+        "categoria": "proteina",
+        "genero": "masculino",
+        "proceso": "bajar",
+        "precio": "47",
+        "imgSrc": "imgs/isolateDNC.png"
+    },
+    {
+        "nombre": "BiPro",
+        "categoria": "proteina",
+        "genero": "masculino",
+        "proceso": "bajar",
+        "precio": "30",
+        "imgSrc": "imgs/bipro.png"
+    },
+    {
+        "nombre": "sasha Isolate",
+        "categoria": "proteina",
+        "genero": "femenino",
+        "proceso": "subir",
+        "precio": "38",
+        "imgSrc": "imgs/sasha.png"
+    },
+    {
+        "nombre": "Organic Protein",
+        "categoria": "proteina",
+        "genero": "femenino",
+        "proceso": "subir",
+        "precio": "35",
+        "imgSrc": "imgs/orgain.png"
+    },
+    {
+        "nombre": "Xero",
+        "categoria": "proteina",
+        "genero": "femenino",
+        "proceso": "subir",
+        "precio": "39",
+        "imgSrc": "imgs/xero.png"
+    },
+    {
+        "nombre": "Nature Bounty",
+        "categoria": "proteina",
+        "genero": "femenino",
+        "proceso": "bajar",
+        "precio": "32",
+        "imgSrc": "imgs/natureBounty.png"
+    },
+    {
+        "nombre": "ISO 100",
+        "categoria": "proteina",
+        "genero": "femenino",
+        "proceso": "bajar",
+        "precio": "41",
+        "imgSrc": "imgs/iso100.png"
+    },
+    {
+        "nombre": "Body Ripped",
+        "categoria": "proteina",
+        "genero": "femenino",
+        "proceso": "bajar",
+        "precio": "30",
+        "imgSrc": "imgs/bodyripped.png"
+    }
+]
