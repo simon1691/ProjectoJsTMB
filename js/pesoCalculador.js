@@ -29,6 +29,9 @@ let calcularValoresPeso = (TMB, proceso, genero) =>{
 
         // llamar la funcion que muestra los productos
         productos();
+        setTimeout(() => {
+            addProductsToCart();
+        }, 200);
     }else{
         alert();
     }

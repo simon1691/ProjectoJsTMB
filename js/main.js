@@ -10,6 +10,7 @@ let subirPesoId = subirPeso.id;
 let bajarPeso = document.getElementById("bajar");
 let bajarPesoId = bajarPeso.id;
 
+
 // Funcion principal para ejecutar
 // la aplicacion basado en el genero seleccionado
 

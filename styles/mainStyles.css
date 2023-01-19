@@ -7,11 +7,17 @@ header {
     align-items: stretch;
 }
 
-header .navbar {  background-color: #f8f9fa24 !important; }
+.navbar { background-color: #9389f3; }
 
-header .navbar a {color: white !important;}
+.navbar-brand {color: white !important;}
 
-header .navbar + .container-fluid { flex: 1; }
+.navbar.fixed-top { z-index: 1065 !important; }
+
+.navbar + .container-fluid { flex: 1; }
+
+.navbar .modal-content {min-height: 80%;}
+
+.navbar .modal-dialog {max-width: 80%;}
 
 header .row { height: 80vh; }
 
@@ -24,6 +30,8 @@ header h1 {
 header .modal-header{
     border: none !important;
 }
+
+header .modal-content {height: 80%;}
 
 header .modal-dialog {
     max-width: 800px !important;
@@ -286,3 +294,70 @@ form .calcular::before{
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
+
+.carrito-btn{
+    background-color: transparent;
+    border: none;
+}
+
+.carrito > div {
+    content: "";
+    display: block;
+    background-color: white;
+    top: -4px;
+    left: 15px;
+    color: #4158D0;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 0px 6px;
+}
+
+
+.carrito-main {
+    background-color: #efeff3;
+    height: 100vh;
+}
+
+.carrito-main .container{
+    background-color: #fff;
+    min-height: 200px;
+    max-height: calc(100vh - 200px);
+    position: relative;
+    top: 150px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px 5px rgba(206, 207, 214, 0.342);
+}
+
+.carrito-tabla .col-50{
+    width: 50px;
+}
+
+.carrito-tabla .col-100{
+    width: 100px;
+}
+
+.carrito-tabla img {
+    max-width: 50px;
+    max-height: 50px;
+}
+.carrito-tabla td {
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+/* .item-img {
+    flex-basis: 50px;
+    height: 50px;
+}
+
+.item-description {
+    flex-grow: 5;
+}
+
+.item-quantity,
+.item-precio{
+    flex-basis: 50px;
+    text-align: right;
+}
+
+.item-remove { flex-basis: 15px;} */

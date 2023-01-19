@@ -5,7 +5,8 @@
         "genero": "masculino",
         "proceso": "subir",
         "precio": "30",
-        "imgSrc": "imgs/bipromass.png"
+        "imgSrc": "imgs/bipromass.png",
+        "id":"0"
     },
     {
         "nombre": "Gainer Pro",
@@ -13,7 +14,8 @@
         "genero": "masculino",
         "proceso": "subir",
         "precio": "23",
-        "imgSrc": "imgs/gainerpro.png"
+        "imgSrc": "imgs/gainerpro.png",
+        "id":"1"
     },
     {
         "nombre": "Titan Army",
@@ -21,7 +23,8 @@
         "genero": "masculino",
         "proceso": "subir",
         "precio": "30",
-        "imgSrc": "imgs/titangainer.png"
+        "imgSrc": "imgs/titangainer.png",
+        "id":"2"
     },
     {
         "nombre": "Best Protein",
@@ -29,7 +32,8 @@
         "genero": "masculino",
         "proceso": "bajar",
         "precio": "55",
-        "imgSrc": "imgs/bestProtein.png"
+        "imgSrc": "imgs/bestProtein.png",
+        "id":"3"
     },
     {
         "nombre": "IsoLate",
@@ -37,7 +41,8 @@
         "genero": "masculino",
         "proceso": "bajar",
         "precio": "47",
-        "imgSrc": "imgs/isolateDNC.png"
+        "imgSrc": "imgs/isolateDNC.png",
+        "id":"4"
     },
     {
         "nombre": "BiPro",
@@ -45,7 +50,8 @@
         "genero": "masculino",
         "proceso": "bajar",
         "precio": "30",
-        "imgSrc": "imgs/bipro.png"
+        "imgSrc": "imgs/bipro.png",
+        "id":"5"
     },
     {
         "nombre": "sasha Isolate",
@@ -53,7 +59,8 @@
         "genero": "femenino",
         "proceso": "subir",
         "precio": "38",
-        "imgSrc": "imgs/sasha.png"
+        "imgSrc": "imgs/sasha.png",
+        "id":"6"
     },
     {
         "nombre": "Organic Protein",
@@ -61,7 +68,8 @@
         "genero": "femenino",
         "proceso": "subir",
         "precio": "35",
-        "imgSrc": "imgs/orgain.png"
+        "imgSrc": "imgs/orgain.png",
+        "id":"7"
     },
     {
         "nombre": "Xero",
@@ -69,7 +77,8 @@
         "genero": "femenino",
         "proceso": "subir",
         "precio": "39",
-        "imgSrc": "imgs/xero.png"
+        "imgSrc": "imgs/xero.png",
+        "id":"8"
     },
     {
         "nombre": "Nature Bounty",
@@ -77,7 +86,8 @@
         "genero": "femenino",
         "proceso": "bajar",
         "precio": "32",
-        "imgSrc": "imgs/natureBounty.png"
+        "imgSrc": "imgs/natureBounty.png",
+        "id":"9"
     },
     {
         "nombre": "ISO 100",
@@ -85,7 +95,8 @@
         "genero": "femenino",
         "proceso": "bajar",
         "precio": "41",
-        "imgSrc": "imgs/iso100.png"
+        "imgSrc": "imgs/iso100.png",
+        "id":"10"
     },
     {
         "nombre": "Body Ripped",
@@ -93,6 +104,7 @@
         "genero": "femenino",
         "proceso": "bajar",
         "precio": "30",
-        "imgSrc": "imgs/bodyripped.png"
+        "imgSrc": "imgs/bodyripped.png",
+        "id":"11"
     }
 ]
