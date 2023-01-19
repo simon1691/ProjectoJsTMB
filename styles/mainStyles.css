@@ -19,7 +19,7 @@ header {
 
 .navbar .modal-dialog {max-width: 80%;}
 
-header .row { height: 80vh; }
+header .row { height: 100vh; }
 
 header h1 {
     color: white;
