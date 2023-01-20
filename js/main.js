@@ -10,7 +10,6 @@ let subirPesoId = subirPeso.id;
 let bajarPeso = document.getElementById("bajar");
 let bajarPesoId = bajarPeso.id;
 
-
 // Funcion principal para ejecutar
 // la aplicacion basado en el genero seleccionado
 
@@ -26,30 +25,15 @@ let seleccionarGenero = (genero) => {
 
         //llamado de funciones
         submit.addEventListener("click", preventDefault)
-        submit.addEventListener("click", function(){
+        submit.addEventListener("click", function () {
             calcularTMB(genero);
         })
     }
 }
 
-masculino.addEventListener('click', function() {
+masculino.addEventListener('click', function () {
     seleccionarGenero(masculinoId)
-} );
-femenino.addEventListener('click', function() {
+});
+femenino.addEventListener('click', function () {
     seleccionarGenero(femeninoId)
-} );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+});

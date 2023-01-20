@@ -1,7 +1,7 @@
 // Funcion para calcular la nueva TMB segun seleccion
 // del Usuario: Subir o Bajar de peso
 let proceso = (proceso, TMB, genero) => {
-    if(proceso === "subir" || proceso === "bajar"){
+    if (proceso === "subir" || proceso === "bajar") {
 
         setTimeout(() => {
             ocultarElemento("resultadoTMB")
@@ -9,14 +9,14 @@ let proceso = (proceso, TMB, genero) => {
 
         setTimeout(() => {
             mostrarElemento("subirBajarPeso")
-        },500);
+        }, 500);
 
-        let pesoTitulo =  document.getElementById("pesoProcesoTitulo")
+        let pesoTitulo = document.getElementById("pesoProcesoTitulo")
         let procesoVariable = document.querySelectorAll(".procesoVariable");
         let pesoTMB = document.getElementById("pesoTMB");
         let caloriasExplicacion = document.getElementById("caloriasExplicacion");
 
-        caloriasExplicacion.innerText = `${proceso  === "subir" ? "aumentar" : "reducir"}`;
+        caloriasExplicacion.innerText = `${proceso === "subir" ? "aumentar" : "reducir"}`;
 
 
         let subirHTML = `
@@ -48,9 +48,9 @@ let proceso = (proceso, TMB, genero) => {
 
         pesoTMB.innerHTML = Intl.NumberFormat().format(TMB);
 
-         //llamado de funcion Calucar valores peso
+        //llamado de funcion Calucar valores peso
         submitPeso.addEventListener("click", preventDefault)
-        submitPeso.addEventListener("click", function(){
+        submitPeso.addEventListener("click", function () {
             calcularValoresPeso(TMB, proceso, genero)
         })
     }

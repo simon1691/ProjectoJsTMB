@@ -16,13 +16,10 @@ let resultado = (nombre, TMB, genero) => {
     `
 
     // Lamando de Funcion Proceso
-    subirPeso.addEventListener('click', function() {
+    subirPeso.addEventListener('click', function () {
         proceso(subirPesoId, TMB, genero)
-    } );
-    bajarPeso.addEventListener('click', function() {
+    });
+    bajarPeso.addEventListener('click', function () {
         proceso(bajarPesoId, TMB, genero)
-    } );
-
-   
-
+    });
 }

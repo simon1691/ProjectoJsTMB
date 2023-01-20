@@ -1,5 +1,5 @@
 //Funcion para capturar los valores de Kilos a subir y tiempo
-let calcularValoresPeso = (TMB, proceso, genero) =>{
+let calcularValoresPeso = (TMB, proceso, genero) => {
     let resulPesoContenedor = document.getElementById("pesoProcesoCard");
     let kilosValor = document.getElementById("pesoKilos").value;
     let meses = document.getElementById("pesoMeses").value;
@@ -7,11 +7,11 @@ let calcularValoresPeso = (TMB, proceso, genero) =>{
     let mesDias = 30;
 
     //validaciones
-    if(!kilosValor == "" && !meses == ""){
+    if (!kilosValor == "" && !meses == "") {
         let kilosCalorias = kilosValor * caloriasEnKilo;
         let mesEnDias = meses * mesDias;
         let caloriasDiarias = Math.round(kilosCalorias / mesEnDias);
-        let nuevaTMB = Intl.NumberFormat().format(proceso === "subir" ? TMB +  (+caloriasDiarias) : TMB -  (+caloriasDiarias));
+        let nuevaTMB = Intl.NumberFormat().format(proceso === "subir" ? TMB + (+caloriasDiarias) : TMB - (+caloriasDiarias));
         let rangoMeses = `Del Mes 1 al ${meses}`
         resulPesoContenedor.innerHTML = `
         <div class="peso-resultodo d-flex d-flex justify-content-center flex-column align-items-start"> 
@@ -32,10 +32,10 @@ let calcularValoresPeso = (TMB, proceso, genero) =>{
         setTimeout(() => {
             addProductsToCart();
         }, 200);
-    }else{
+    } else {
         alert();
     }
 }
 
- //capturar id de boton submit en formulario de meses y kilos
- let submitPeso = document.getElementById('calcularTiempo');
+//capturar id de boton submit en formulario de meses y kilos
+let submitPeso = document.getElementById('calcularTiempo');

@@ -5,13 +5,12 @@ let productos = () => {
     // muestra la seccion con todos los productos
     mostrarElemento(productosSection);
 
-
     fetch('./json/productos.json')
-    .then(response => response.json())
-    .then(data => {
-        let htmlProductos = "";
-        data.forEach(producto => {
-            htmlProductos += `
+        .then(response => response.json())
+        .then(data => {
+            let htmlProductos = "";
+            data.forEach(producto => {
+                htmlProductos += `
             <div id="${producto.id}" class="product-item d-flex flex-column justify-content-center">
                 <div class="product-img d-flex justify-content-center pt-4">
                     <img class="img" src="${producto.imgSrc}" alt="${producto.nombre}">
@@ -25,16 +24,9 @@ let productos = () => {
                         Agregar al Carrito
                     </button>
                 </div>
-          </div>
+            </div>
             `
-        });
-        productosContainer.innerHTML = htmlProductos;
-    })
+            });
+            productosContainer.innerHTML = htmlProductos;
+        })
 }
-
-
-
-
-
-
-

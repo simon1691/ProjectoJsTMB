@@ -1,5 +1,5 @@
 // Funcion para calcular la TMB
-let calcularTMB = (genero) =>{
+let calcularTMB = (genero) => {
 
     //Capturar valores del form
     let nombre = document.getElementById('nombre').value;
@@ -11,7 +11,7 @@ let calcularTMB = (genero) =>{
     let actividad = document.getElementById('actividad').value;
 
     //validaciones
-    if(!peso == "" && !altura == "" && !edad == ""){
+    if (!peso == "" && !altura == "" && !edad == "") {
         peso = peso * 10;
         altura = altura * 6.25;
         edad = edad * 5;
@@ -19,10 +19,10 @@ let calcularTMB = (genero) =>{
         let TMBActivadad = TMB(actividad, TMBase);
 
         //Mostrar resultado basado en el genero
-        if(genero === "masculino"){
+        if (genero === "masculino") {
             TMBase = Intl.NumberFormat().format(Math.round(TMBActivadad + siMasculino));
             resultado(nombre, TMBActivadad, genero)
-        }else if(genero === "femenino"){
+        } else if (genero === "femenino") {
             TMBase = Intl.NumberFormat().format(Math.round(TMBActivadad + siFemenino));
             resultado(nombre, TMBActivadad, genero)
         }
@@ -34,7 +34,7 @@ let calcularTMB = (genero) =>{
         setTimeout(() => {
             mostrarElemento("resultadoTMB")
         }, 500);
-    }else{
+    } else {
         alert();
     }
 }

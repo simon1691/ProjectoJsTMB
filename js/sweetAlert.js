@@ -5,6 +5,5 @@ let alert = () => {
         text: 'Parece que dejaste algunos campos vacios!',
         width: "600px",
         padding: "50px 25px"
-    
     })
 }
